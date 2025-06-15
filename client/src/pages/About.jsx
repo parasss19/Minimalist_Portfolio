@@ -14,7 +14,7 @@ const About = () => {
 
       {/* Profile Pic */}
       <div className='flex items-center justify-center mb-8'>
-        <img src="paras.webp" alt="paras image" className='w-md h-md bg-[#373737] p-3 rounded-lg hover:scale-95 transition-transform duration-400 ease-in-out'/>
+        <img src="https://res.cloudinary.com/dxxeks4o5/image/upload/v1749978802/qf2mkz_btchk5.jpg" alt="paras image" className='w-md h-md bg-[#373737] p-3 rounded-lg hover:scale-95 transition-transform duration-400 ease-in-out'/>
       </div>
 
       {/* Education */}

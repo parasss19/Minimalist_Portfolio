@@ -85,7 +85,7 @@ const Home = () => {
         
         {/* Right Part */}
         <div className="mb-2 sm:mb-0">
-          <img src="/profile.webp" alt="profile image" className="w-44 h-44 sm:w-48 sm:h-48 transition-transform duration-300 hover:scale-110" />
+          <img src="https://res.cloudinary.com/dxxeks4o5/image/upload/v1749978824/my-notion-face-transparent_fzfsuw.png" alt="profile image" className="w-44 h-44 sm:w-48 sm:h-48 transition-transform duration-300 hover:scale-110" />
         </div>
       </div>
       
