@@ -1,0 +1,97 @@
+import DotTitle from "../components/Dot_Title"
+import DetailedProjectCard from "../components/DetailedProjectCard"
+
+const ProjectsPage = () => {
+  return (
+    <div className="mx-2 mt-4">
+      <div className="mx-4">
+        <DotTitle title="Projects"/>
+        <h1 className="font-[inter] font-semibold text-[30px] text-white mt-6 mb-4">My Works</h1>
+      </div>
+      
+      
+      <div className="my_container bg-[#2C2C2C] mx-2 my-6 py-1 rounded-lg">
+        <DetailedProjectCard 
+          logoImg="payeasy.png" 
+          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1744698767/0FEA8AD7-EF62-454B-B258-0D0F6AB166A5_dac1pt.png"
+          title="PayEasy 💸" 
+          gitLink="https://github.com/parasss19/Payment-App" 
+          liveLink="https://payeasy-frontend.vercel.app/"
+          techStack={['ReactJS', 'Tailwind', 'Node', 'Express', 'MongoDB', 'Zod', 'Context API']}
+          description={[
+            "A secure full stack payment system using JWT authentication and MongoDB transactions to simulate real-time digital pyments",
+            "Integrated Local Storage for GIF Saving, with Like, Share, and Download functionality, to Improve Session Retention",
+          ]}  
+        />
+        <DetailedProjectCard 
+          logoImg="sticky.svg" 
+          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1742539916/l0kvnluudpvlj4ihqdxd.png"
+          title="Sticky" 
+          gitLink="https://github.com/parasss19/GiphyApp" 
+          liveLink="https://sticky-blond.vercel.app/"
+          techStack={['ReactJS', 'Tailwind', 'Giphy API', 'Context API', 'Vite']}
+          description={[
+            "A real-time GIF search with support for trending categories, stickers, and texts using Giphy API.",
+            "User can download, Share and Favourite Gifs and stickers",
+            "Implemented a responsive user dashboard that offers real-time balance updates, wallet top-up functionality, and advanced user search and profile management.",
+          ]} 
+        />
+
+        <DetailedProjectCard 
+          logoImg="extension.png"
+          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1749970742/image_k3364r.png"
+          title="AI SUMMARIZER" 
+          gitLink="https://github.com/parasss19/AI-summarizer-Extension" 
+          techStack={['ReactJS', 'Tailwind', 'Gemini Pro', 'Chrome Storage']}
+          description={[
+            "Built an AI-powered fully functional Chrome Extension using React (Vite) and TailwindCSS to summarize any webpage content instantly.",
+            "Integrated Gemini Pro API to generate intelligent summaries in three formats: Brief summary, Detailed explanation, Bullet points",
+            "Created a custom Options Page for storing and managing the Gemini API key securely via Chrome Storage API.",
+            "Used Chrome local storage to persist API keys and user preferences across sessions."
+          ]} 
+        />
+        <DetailedProjectCard 
+          logoImg="camera.png" 
+          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1749972542/982B66D0-4442-4AB6-BF54-BE00413055F5_tqbxke.png"
+          title="WebCam Fun" 
+          gitLink="https://github.com/parasss19/JS-Project6" 
+          liveLink="https://parasss19.github.io/JS-Project6/"
+          techStack={['HTML', 'Tailwind', 'Javascript', 'Web API', 'HTML5 Canvas']}
+          description={[
+            "Developed a webcam-based image filter and screenshot application using HTML5, JavaScript, and TailwindCSS.",
+            "Integrated the MediaDevices API to access the user's webcam and stream real-time video to a <video> element.",
+            "Implemented real-time canvas rendering by drawing video frames onto an HTML5 <canvas> element using drawImage()."
+          ]}
+        />
+        <DetailedProjectCard 
+          logoImg="paint-brush.png" 
+          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1749970933/2236200A-B48A-4232-B13F-F2715C9A1E4D_m2ckmq.png"
+          title="Free Hand" 
+          gitLink="https://github.com/parasss19/JS-Project5" 
+          liveLink="https://parasss19.github.io/JS-Project5/"
+          techStack={['HTML', 'Tailwind', 'Javascript', 'HTML5 Canvas']}
+          description={[
+            "Implemented a dynamic drawing interface with real-time mouse tracking and smooth line rendering using the <canvas> API.",
+            "Developed a “Magic Mode” feature using HSL color shifting to create animated rainbow strokes. Added 'Erase Mode' and 'Reset' button functionality.",
+            "Utilized canvas context APIs (beginPath, moveTo, lineTo, stroke) to render smooth freehand lines."
+          ]}
+        />
+      </div>
+
+    </div>
+  )
+}
+
+export default ProjectsPage
+
+/* 
+
+
+• Performance increased by 50% by lazy loading and data caching, ensuring seamless UX even on slow networks
+
+
+Built and deployed Chrome Extension to provide users with instant AI-powered summaries of any webpage
+content in various formats like brief, detailed, or bullet-points.
+• Help users digest large articles in seconds and eliminate the need to read full content for key insights
+
+*/
