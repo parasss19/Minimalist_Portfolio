@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 //Route - /api/contact
-app.post("/api/contact" ,validateUser, async(req, res) => {
+app.post("/contact" ,validateUser, async(req, res) => {
     const { name, email, message } = req.validatedData;
 
     try {

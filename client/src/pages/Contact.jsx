@@ -34,7 +34,7 @@ const Contact = () => {
       setLoading(true);
 
       try {
-        const {data} = await axios.post(`${BACKENDURL}/api/contact`, formData);
+        const {data} = await axios.post(`${BACKENDURL}/contact`, formData);
 
         if(data.success){
           toast.success(data.message);
