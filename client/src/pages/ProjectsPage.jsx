@@ -51,6 +51,19 @@ const ProjectsPage = () => {
           ]} 
         />
         <DetailedProjectCard 
+          logoImg="escape.png"
+          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1750152060/EA3C85FC-11D2-401F-BFB5-5289D3E521D1_iu5aqz.png"
+          title="Landing Page - SaaS" 
+          gitLink="https://github.com/parasss19/Escape" 
+          liveLink="https://parasss19.github.io/Escape/"
+          techStack={['HTML', 'Tailwind', 'Javascript']}
+          description={[
+            "Responsive Landing Page built using HTML, TailwindCSS, and Vanilla JavaScript, mimicking the official ToDesktop aesthetic with pixel-perfect precision.",
+            "Optimized for all devices – mobile-first design.",
+            " Integrated interactive features like dynamic navbar, scroll-based animations, and responsive layout.",
+          ]} 
+        />
+        <DetailedProjectCard 
           logoImg="camera.png" 
           websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1749972542/982B66D0-4442-4AB6-BF54-BE00413055F5_tqbxke.png"
           title="WebCam Fun" 
@@ -83,15 +96,3 @@ const ProjectsPage = () => {
 }
 
 export default ProjectsPage
-
-/* 
-
-
-• Performance increased by 50% by lazy loading and data caching, ensuring seamless UX even on slow networks
-
-
-Built and deployed Chrome Extension to provide users with instant AI-powered summaries of any webpage
-content in various formats like brief, detailed, or bullet-points.
-• Help users digest large articles in seconds and eliminate the need to read full content for key insights
-
-*/
