@@ -64,7 +64,7 @@ const Home = () => {
             <div className="flex gap-3 justify-center sm:justify-start">
               <a 
                 onClick={confettiHandler}
-                href="/Paras_Resume.pdf"
+                href="https://bit.ly/4lB8c6T"
                 download
                 className="px-2 py-1 rounded-lg flex items-center gap-2 cursor-pointer bg-red-600 active:scale-95 transition-transform duration-150"
               >
