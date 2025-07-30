@@ -17,23 +17,24 @@ const ProjectsPage = () => {
           title="PayEasy 💸" 
           gitLink="https://github.com/parasss19/Payment-App" 
           liveLink="https://payeasy-frontend.vercel.app/"
-          techStack={['ReactJS', 'Tailwind', 'Node', 'Express', 'MongoDB', 'Zod', 'Context API']}
+          techStack={['ReactJS', 'Tailwind', 'Node', 'Express', 'MongoDB', 'Zod', 'Context API', 'JWT',]}
           description={[
             "A secure full stack payment system using JWT authentication and MongoDB transactions to simulate real-time digital pyments",
-            "Integrated Local Storage for GIF Saving, with Like, Share, and Download functionality, to Improve Session Retention",
+            "Implemented a responsive user dashboard that offers real-time balance updates, wallet top-up functionality, and advanced user search and profile management",
           ]}  
         />
         <DetailedProjectCard 
           logoImg="sticky.svg" 
-          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1742539916/l0kvnluudpvlj4ihqdxd.png"
+          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1753859399/image_psndzo.png"
           title="Sticky" 
           gitLink="https://github.com/parasss19/GiphyApp" 
           liveLink="https://sticky-blond.vercel.app/"
-          techStack={['ReactJS', 'Tailwind', 'Giphy API', 'Context API', 'Vite']}
+          techStack={['ReactJS', 'Tailwind', 'Framer', 'Context API', 'Node', 'Express', 'MongoDB', 'Giphy API', 'Vite', 'Google OAuth']}
           description={[
-            "A real-time GIF search with support for trending categories, stickers, and texts using Giphy API.",
+            "A real-time GIF search with support for trending categories, Gifs, stickers and texts using Giphy API.",
+            "Integrated Google OAuth for fast and secure user authentication using Passport.Js",
             "User can download, Share and Favourite Gifs and stickers",
-            "Implemented a responsive user dashboard that offers real-time balance updates, wallet top-up functionality, and advanced user search and profile management.",
+            "Integrated Local Storage for GIF Saving, with Like, Share, and Download functionality, to Improve Session Retention",
           ]} 
         />
 
