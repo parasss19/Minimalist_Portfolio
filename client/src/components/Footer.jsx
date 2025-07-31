@@ -2,6 +2,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 import DotTitle from "./Dot_Title";
+import { sendEvent } from "../utils/gaEvent";
 
 
 const Footer = () => {
@@ -18,6 +19,14 @@ const Footer = () => {
             href="https://twitter.com/Parasss1902" 
             target='blank' 
             className="bg-black px-2 py-2 rounded-full hover:-translate-y-1 transition-transform ease-linear"
+            onClick={() =>
+              sendEvent({
+                action: "social_click",
+                category: "Social",
+                label: "Twitter",
+                value: 1,
+              })
+            }
           >
             <FaXTwitter className="w-[18px] h-[18px] sm:w-6 sm:h-6"/>
           </a>
@@ -25,6 +34,14 @@ const Footer = () => {
             href="https://github.com/parasss19" 
             target='blank'
             className="bg-black px-2 py-2 rounded-full hover:-translate-y-1 transition-transform ease-linear"
+            onClick={() =>
+              sendEvent({
+                action: "social_click",
+                category: "Social",
+                label: "Github",
+                value: 1,
+              })
+            }
           >
             <FiGithub className="w-[18px] h-[18px] sm:w-6 sm:h-6"/>
           </a>
@@ -32,6 +49,14 @@ const Footer = () => {
             href="https://www.linkedin.com/in/paras-mehta19/" 
             target='blank'
             className="bg-black px-2 py-2 rounded-full hover:-translate-y-1 transition-transform ease-linear"
+            onClick={() =>
+              sendEvent({
+                action: "social_click",
+                category: "Social",
+                label: "Linkedin",
+                value: 1,
+              })
+            }
           >
             <FaLinkedinIn className="w-[18px] h-[18px] sm:w-6 sm:h-6"/>
           </a>

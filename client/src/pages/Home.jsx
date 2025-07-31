@@ -7,6 +7,7 @@ import Realistic from "react-canvas-confetti/dist/presets/realistic";
 import { ArrowRight } from "lucide-react"
 import { useNavigate } from "react-router-dom";
 import DotTitle from "../components/Dot_Title";
+import { sendEvent } from "../utils/gaEvent";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -14,13 +15,20 @@ const Home = () => {
   const [copied , setCopied] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
 
-  const copyHandler = () => {
-    navigator.clipboard.writeText("mehtaparas1901@gmail.com"); 
+  const copyHandler = (text) => {
+    navigator.clipboard.writeText(text); 
     setCopied(true);
     toast.success("Email Copied")
     setTimeout(() => {
       setCopied(false);
-    },1000)
+    },1000);
+    
+    sendEvent({
+      action: "copy_email",
+      category: "Interaction",
+      label: text,
+      value: 1,
+    });
   }
 
   const confettiHandler = () => {
@@ -63,8 +71,16 @@ const Home = () => {
 
             <div className="flex gap-3 justify-center sm:justify-start">
               <a 
-                onClick={confettiHandler}
-                href="https://bit.ly/4lB8c6T"
+                onClick={() => {
+                  confettiHandler();
+                  sendEvent({
+                    action: "resume_download",
+                    category: "Resume",
+                    label: "PDF",
+                    value: 1,
+                  });
+                }}
+                href="https://drive.google.com/uc?export=download&id=1UzgGnTq3A0pQdVCoiN7wB9rda7v8_-Sc"
                 download
                 className="px-2 py-1 rounded-lg flex items-center gap-2 cursor-pointer bg-red-600 active:scale-95 transition-transform duration-150"
               >
@@ -72,7 +88,7 @@ const Home = () => {
               </a>
          
               <button 
-                onClick={copyHandler} 
+                onClick={() => copyHandler("mehtaparas1901@gmail.com")} 
                 className="px-2 py-2 rounded-lg flex items-center gap-2 cursor-pointer border border-[#847878] active:scale-95 transition-transform duration-150"
               >
                 <IoMail/>

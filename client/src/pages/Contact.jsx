@@ -4,6 +4,7 @@ import Realistic from "react-canvas-confetti/dist/presets/realistic";
 import DotTitle from '../components/Dot_Title';
 import axios from 'axios';
 import Loader from '../components/Loader';
+import { sendEvent } from '../utils/gaEvent';
 
 const Contact = () => {
   const [showConfetti, setShowConfetti] = useState(false);
@@ -39,6 +40,15 @@ const Contact = () => {
         if(data.success){
           toast.success(data.message);
           setShowConfetti(true);
+          
+          //Track form submission
+          sendEvent({
+            action: "form_submit",
+            category: "Contact",
+            label: "Contact Form",
+            value: 1,
+          });
+
           setFormData({ name: '', email: '', message: '' });
           setTimeout(() => setShowConfetti(false), 3000);
         }else {
