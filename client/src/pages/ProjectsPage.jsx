@@ -52,6 +52,20 @@ const ProjectsPage = () => {
           ]} 
         />
         <DetailedProjectCard 
+          logoImg="job.png"
+          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1752755458/3CFEB96C-E070-4D6F-8A4F-283EBA8DA84F_ejomse.png"
+          title="JobHunt" 
+          gitLink="https://github.com/parasss19/JobListingApplication" 
+          liveLink="https://job-listing-application-eta.vercel.app"
+          techStack={['ReactJS', 'Tailwind', 'Framer', 'Context API', 'Node', 'Express', 'MongoDB']}
+          description={[
+            "Location-based Search with pagination on results",
+            "Paginated Results (20 jobs per page)",
+            "Quick Apply button with job link",
+            "Responsive UI with clean layout",
+          ]} 
+        />
+        <DetailedProjectCard 
           logoImg="escape.png"
           websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1750152060/EA3C85FC-11D2-401F-BFB5-5289D3E521D1_iu5aqz.png"
           title="Landing Page - SaaS" 
