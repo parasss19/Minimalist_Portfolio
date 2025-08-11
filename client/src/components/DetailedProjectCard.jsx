@@ -53,10 +53,10 @@ const DetailedProjectCard = ({logoImg, websiteImg, title, description, gitLink, 
               <a 
                 href={gitLink} 
                 target="blank"
-                className="flex justify-center items-center gap-3 rounded-md bg-[#2f2a2a] px-6 py-2.5 w-1/2 sm:w-fit "
+                className="flex justify-center items-center gap-2 rounded-md bg-[#2f2a2a] px-2 py-2 sm:px-4 sm:py-2.5 flex-shrink-0 min-w-[90px] "
               >
-                <span className='font-[inter] font-semibold text-white'>Code</span>
-                <FiGithub size={20} className="text-white"/>
+                <span className='font-[inter] font-semibold text-white text-base sm:text-lg'>Code</span>
+                <FiGithub className="text-white size-4 sm:size-5"/>
               </a>
               )}
     
@@ -64,10 +64,10 @@ const DetailedProjectCard = ({logoImg, websiteImg, title, description, gitLink, 
               <a 
                 href={liveLink} 
                 target="blank"
-                className="flex justify-center items-center rounded-md bg-[#2f2a2a] px-6 py-2 gap-3 w-1/2 sm:w-fit"
+                className="flex justify-center items-center gap-2 rounded-md bg-[#2f2a2a] px-2 py-2 sm:px-4 sm:py-2.5 flex-shrink-0 min-w-[90px]"
               >
-                <span className='font-[inter] font-semibold text-white'>Live</span>
-                <ExternalLink size={18} className="text-white transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"/>
+                <span className='font-[inter] font-semibold text-white text-base sm:text-lg'>Live</span>
+                <ExternalLink className="text-white size-4 sm:size-5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"/>
               </a>
               )}
             </div>

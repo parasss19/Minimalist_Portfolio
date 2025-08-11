@@ -25,7 +25,7 @@ const ProjectCard = ({image, title, description, gitLink, liveLink}) => {
           <a 
             href={gitLink} 
             target="blank"
-            className="flex justify-center items-center gap-3 p-2 rounded-lg sm:rounded-full bg-[#2f2a2a] w-1/3 sm:w-fit"
+            className="flex justify-center items-center gap-3 p-2 rounded-lg sm:rounded-full bg-[#2f2a2a] flex-shrink-0"
           >
             <span className='font-[inter] font-semibold text-white block sm:hidden'>Code</span>
             <FiGithub size={18} className="text-white"/>
@@ -36,7 +36,7 @@ const ProjectCard = ({image, title, description, gitLink, liveLink}) => {
           <a 
             href={liveLink} 
             target="blank"
-            className="flex justify-center items-center gap-3 p-2 rounded-lg sm:rounded-full bg-[#2f2a2a] w-1/3 sm:w-fit"
+            className="flex justify-center items-center gap-3 p-2 rounded-lg sm:rounded-full bg-[#2f2a2a] flex-shrink-0"
           >
             <span className='font-[inter] font-semibold text-white sm:hidden'>Live</span>
             <ExternalLink size={18} className="text-white transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"/>
