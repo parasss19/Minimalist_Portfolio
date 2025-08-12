@@ -80,8 +80,8 @@ const Home = () => {
                     value: 1,
                   });
                 }}
-                href="https://drive.google.com/uc?export=download&id=1UzgGnTq3A0pQdVCoiN7wB9rda7v8_-Sc"
-                download
+                href="/Resume.pdf"
+                download = "Paras_Mehta_Resume.pdf"
                 className="px-2 py-1 rounded-lg flex items-center gap-2 cursor-pointer bg-red-600 active:scale-95 transition-transform duration-150"
               >
                 Resume<IoDownloadOutline />
