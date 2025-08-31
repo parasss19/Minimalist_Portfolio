@@ -16,7 +16,7 @@ const ProjectsPage = () => {
           websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1756624919/image_5_morwwi.png"
           title="PayEasy 💸" 
           gitLink="https://github.com/parasss19/Payment-App" 
-          liveLink="https://payeasy-frontend.vercel.app/"
+          liveLink="https://payeasy.site"
           techStack={['ReactJS', 'Tailwind', 'Node', 'Express', 'MongoDB', 'Zod', 'Context API', 'JWT',]}
           description={[
             "A secure full stack payment system using JWT authentication and MongoDB transactions to simulate real-time digital pyments",
@@ -28,7 +28,7 @@ const ProjectsPage = () => {
           websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1753859399/image_psndzo.png"
           title="Sticky" 
           gitLink="https://github.com/parasss19/GiphyApp" 
-          liveLink="https://sticky-blond.vercel.app/"
+          liveLink="https://stickyy.site"
           techStack={['ReactJS', 'Tailwind', 'Framer', 'Context API', 'Node', 'Express', 'MongoDB', 'Giphy API', 'Vite', 'Google OAuth']}
           description={[
             "A real-time GIF search with support for trending categories, Gifs, stickers and texts using Giphy API.",
