@@ -13,7 +13,7 @@ const ProjectsPage = () => {
       <div className="my_container bg-[#2C2C2C] mx-2 my-6 py-1 rounded-lg">
         <DetailedProjectCard 
           logoImg="payeasy.png" 
-          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1744698767/0FEA8AD7-EF62-454B-B258-0D0F6AB166A5_dac1pt.png"
+          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1756624919/image_5_morwwi.png"
           title="PayEasy 💸" 
           gitLink="https://github.com/parasss19/Payment-App" 
           liveLink="https://payeasy-frontend.vercel.app/"
@@ -49,20 +49,6 @@ const ProjectsPage = () => {
             "Integrated Gemini Pro API to generate intelligent summaries in three formats: Brief summary, Detailed explanation, Bullet points",
             "Created a custom Options Page for storing and managing the Gemini API key securely via Chrome Storage API.",
             "Used Chrome local storage to persist API keys and user preferences across sessions."
-          ]} 
-        />
-        <DetailedProjectCard 
-          logoImg="job.png"
-          websiteImg="https://res.cloudinary.com/dxxeks4o5/image/upload/v1752755458/3CFEB96C-E070-4D6F-8A4F-283EBA8DA84F_ejomse.png"
-          title="JobHunt" 
-          gitLink="https://github.com/parasss19/JobListingApplication" 
-          liveLink="https://job-listing-application-eta.vercel.app"
-          techStack={['ReactJS', 'Tailwind', 'Framer', 'Context API', 'Node', 'Express', 'MongoDB']}
-          description={[
-            "Location-based Search with pagination on results",
-            "Paginated Results (20 jobs per page)",
-            "Quick Apply button with job link",
-            "Responsive UI with clean layout",
           ]} 
         />
         <DetailedProjectCard 
