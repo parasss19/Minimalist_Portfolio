@@ -125,7 +125,7 @@ const Home = () => {
           </div>
         </div>
         
-        <ProjectCard image="payeasy.png" title="PayEasy 💸" description="Fully functional peer-to-peer money transfer system with user authentication" gitLink="https://github.com/parasss19/Payment-App" liveLink="https://payeasy-frontend.vercel.app/"/>
+        <ProjectCard image="payeasy.png" title="PayEasy 💸" description="Fully functional peer-to-peer money transfer system with user authentication" gitLink="https://github.com/parasss19/Payment-App" liveLink="https://payeasy.site"/>
         <ProjectCard image="/sticky.svg" title="Sticky" description="A fun & fast GIF ,Stickers finder where you can explore, search, favorite, and download trending and categorized GIFs in real-time" gitLink="https://github.com/parasss19/GiphyApp" liveLink="https://sticky-blond.vercel.app/"/>
         <ProjectCard image="/extension.png" title="AI SUMMARIZER" description="AI Summary for Blogs and Articles - Chrome Extension" gitLink="https://github.com/parasss19/AI-summarizer-Extension"/>
       </div>
