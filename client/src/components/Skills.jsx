@@ -17,7 +17,7 @@ const Skills = () => {
             <span className='text-white font-[inter] font-bold text-xl sm:text-2xl flex items-center gap-3'><GiLaptop/>Frontend</span>
             <div className='font-[inter] mt-3 flex flex-wrap gap-3'>
               <span className='border border-gray-700 text-[#dbcaca]  text-sm sm:text-[17px] px-1.5 py-1 rounded transition-transform duration-200 hover:-rotate-3 hover:scale-105'>HTML/CSS</span>
-              <span className='border border-gray-700 text-[#dbcaca]  text-sm sm:text-[17px] px-1.5 py-1 rounded transition-transform duration-200 hover:-rotate-3 hover:scale-105'>Javasctipt</span>
+              <span className='border border-gray-700 text-[#dbcaca]  text-sm sm:text-[17px] px-1.5 py-1 rounded transition-transform duration-200 hover:-rotate-3 hover:scale-105'>Javascript</span>
               <span className='border border-gray-700 text-[#dbcaca]  text-sm sm:text-[17px] px-1.5 py-1 rounded transition-transform duration-200 hover:-rotate-3 hover:scale-105'>Tailwind</span>
               <span className='border border-gray-700 text-[#dbcaca]  text-sm sm:text-[17px] px-1.5 py-1 rounded transition-transform duration-200 hover:-rotate-3 hover:scale-105'>Typescript</span>
               <span className='border border-gray-700 text-[#dbcaca]  text-sm sm:text-[17px] px-1.5 py-1 rounded transition-transform duration-200 hover:-rotate-3 hover:scale-105'>ReactJS</span>
