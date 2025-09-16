@@ -35,10 +35,11 @@ const ProjectsPage = () => {
       category: "Full Stack",
     },
     {
-      logoImg: "extension.png",
-      websiteImg: "https://res.cloudinary.com/dxxeks4o5/image/upload/v1749970742/image_k3364r.png",
-      title: "AI SUMMARIZER",
+      logoImg: "instantly.svg",
+      websiteImg: "https://res.cloudinary.com/dxxeks4o5/image/upload/v1758008283/landing_gn9s3n.jpg",
+      title: "Instantly - AI Summarizer",
       gitLink: "https://github.com/parasss19/AI-summarizer-Extension",
+      liveLink: "https://instantly-one.vercel.app",
       techStack: ["ReactJS", "Tailwind", "Gemini Pro", "Chrome Storage"],
       description: [
         "Built an AI-powered fully functional Chrome Extension using React (Vite) and TailwindCSS to summarize any webpage content instantly.",
