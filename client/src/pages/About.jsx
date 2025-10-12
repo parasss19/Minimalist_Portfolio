@@ -21,38 +21,20 @@ const About = () => {
       <div className='flex flex-col gap-4 mb-6'>
         <DotTitle title="Education"/>
       
-        <div className='flex flex-col gap-4 rounded-lg'>
-            {/* college */}
-            <div className='mx-4 mb-3 border border-[#4d4a4a] rounded-lg px-3 py-3'>
-              <div className='flex items-center justify-between'>
-                <span className='text-white font-[inter] text-[18px] sm:text-xl'>Guru Gobind Singh Indraprastha University</span>
-                <span className='font-[inter] text-[#dbcaca] text-sm sm:text-[18px]'>2021-2025</span>
-              </div>
+        {/* college */}
+        <div className='mx-4 mb-3 border border-[#4d4a4a] rounded-lg px-3 py-3'>
+          <div className='flex items-center justify-between'>
+            <span className='text-white font-[inter] text-[18px] sm:text-xl'>Guru Gobind Singh Indraprastha University</span>
+            <span className='font-[inter] text-[#dbcaca] text-sm sm:text-[18px]'>2021-2025</span>
+          </div>
 
-              <span className='italic text-[#dbcaca] text-sm'>(Bachelor of Technology (B.Tech.) in Computer Science)</span>
+          <span className='italic text-[#dbcaca] text-sm'>(Bachelor of Technology (B.Tech.) in Computer Science)</span>
       
-              <ul className='mt-3'>
-                <li className='list-disc ml-4 font-[inter] text-[#dbcaca] text-sm sm:text-[18px]'>Comprehensive study of computer science fundamentals</li>
-                <li className='list-disc ml-4 font-[inter] text-[#dbcaca] text-sm sm:text-[18px]'>Courese Focused on: Data Structures & Algorithms, Operating Systems, Computer Networks, OOP, SDLC, Databases</li>              </ul>
-            </div>
-          
-            {/* School */}
-            <div className='mx-3 mb-3 border border-[#4d4a4a] rounded-lg px-3 py-3'>
-              <div className='flex items-center justify-between'>
-                <span className='text-white font-[inter]  text-[18px] sm:text-xl'>Amrita Vidyalayam, New Delhi</span>
-                <span className='font-[inter] text-[#dbcaca] text-sm sm:text-[18px]'>2018 - 2020</span>
-              </div>
-
-              <span className='italic text-[#dbcaca] text-sm'>(Higher Secondary Education)</span>
-
-              <ul className='mt-3 list-disc ml-4 font-[inter] text-[#dbcaca] text-sm sm:text-[18px] space-y-1 break-words'>
-                <li>Focus on Physics, Chemistry, Mathematics, and Computer Science</li>
-                <li>Ranked among top performers in academics and inter-school competitions</li>
-              </ul>
-            </div>
+          <ul className='mt-3'>
+            <li className='list-disc ml-4 font-[inter] text-[#dbcaca] text-sm sm:text-[18px]'>Comprehensive study of computer science fundamentals</li>
+            <li className='list-disc ml-4 font-[inter] text-[#dbcaca] text-sm sm:text-[18px]'>Courese Focused on: Data Structures & Algorithms, Operating Systems, Computer Networks, OOP, SDLC, Databases</li>              </ul>
         </div>
       </div>
-
 
       {/* Acheivements */}
       <div className='flex flex-col gap-4'>
