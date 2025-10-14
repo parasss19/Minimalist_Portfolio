@@ -7,6 +7,21 @@ const ProjectsPage = () => {
 
   const projects = [
     {
+      logoImg: "subsyncLogo.svg",
+      websiteImg: "https://res.cloudinary.com/dxxeks4o5/image/upload/v1760297818/image_32_skoctn.png",
+      title: "Subsync AI ✨",
+      gitLink: "https://github.com/parasss19/Subsync",
+      liveLink: "https://subsync.site",
+      techStack: ["ReactJS", "Tailwind", "Node", "Express", "MongoDB", "Autosend", "Gemini API", "Chrome Extension"],
+      description: [
+        "Developed and published a Chrome extension used to manage recurring subscriptions via an intuitive dashboard",
+        "Implemented auto capture using Gemini AI to extract billing details, reducing manual input by 70%.",
+        "Integrated smart renewal reminders (7, 3, 1)days via autosend Email API, boosting on-time payments by 60%.",
+        "Ensured privacy first storage using Chrome Storage API and added JSON import/export for seamless backups."
+      ],
+      category: "Web Tools",
+    },
+    {
       logoImg: "payeasy.png",
       websiteImg: "https://res.cloudinary.com/dxxeks4o5/image/upload/v1756624919/image_5_morwwi.png",
       title: "PayEasy 💸",
@@ -28,7 +43,7 @@ const ProjectsPage = () => {
       liveLink: "https://stickyy.site",
       techStack: ["ReactJS", "Tailwind", "Framer", "Context API", "Node", "Express", "MongoDB", "Giphy API", "Vite", "Google OAuth"],
       description: [
-        "Engineered a GIF discovery platform that attracted 100+ registered users, featuring real-time search across trending categories, GIFs, stickers, and text content through seamless Giphy API integration.",
+        "Built a GIF discovery platform that attracted 100+ registered users, featuring real-time search across trending categories, GIFs, stickers, and text content through seamless Giphy API integration.",
         "Implemented Google OAuth authentication system using Passport.js, reducing authentication time by 60\%",
         "Integrated Local Storage for GIF Saving, with Like, Share, and Download functionality, to Improve Session Retention",
         "Enhanced performance with lazy loading and data caching, cutting page load times.",
@@ -37,7 +52,7 @@ const ProjectsPage = () => {
     },
     {
       logoImg: "instantly.svg",
-      websiteImg: "https://res.cloudinary.com/dxxeks4o5/image/upload/v1758008283/landing_gn9s3n.jpg",
+      websiteImg: "https://res.cloudinary.com/dxxeks4o5/image/upload/v1760299479/image_32_ht5gme.png",
       title: "Instantly - AI Summarizer",
       gitLink: "https://github.com/parasss19/AI-summarizer-Extension",
       liveLink: "https://instantly-one.vercel.app",

@@ -80,7 +80,7 @@ const Home = () => {
                     value: 1,
                   });
                 }}
-                href="/Resume.pdf"
+                href="/resume.pdf"
                 download = "Paras_Mehta_Resume.pdf"
                 className="px-2 py-1 rounded-lg flex items-center gap-2 cursor-pointer bg-red-600 active:scale-95 transition-transform duration-150"
               >
@@ -125,9 +125,10 @@ const Home = () => {
           </div>
         </div>
         
-        <ProjectCard image="/payeasy.png" title="PayEasy 💸" description="Fully functional peer-to-peer money transfer system with user authentication" gitLink="https://github.com/parasss19/Payment-App" liveLink="https://payeasy.site"/>
+        <ProjectCard image="/subsyncLogo.svg" title="Subsync AI ✨" description="Track every Subscription with AI and Skip unwanted renewals. It automatically capture subscription details with AI and get smart, timely reminders so renewals never slip by" gitLink="https://github.com/parasss19/Subsync" liveLink="https://subsync.site"/>
         <ProjectCard image="/sticky.svg" title="Sticky" description="A fun & fast GIF ,Stickers finder where you can explore, search, favorite, and download trending and categorized GIFs in real-time" gitLink="https://github.com/parasss19/GiphyApp" liveLink="https://stickyy.site"/>
         <ProjectCard image="/instantly.svg" title="Instantly" description="AI Summary for Blogs and Articles - Chrome Extension" gitLink="https://github.com/parasss19/AI-summarizer-Extension" liveLink= "https://instantly-one.vercel.app"/>
+        <ProjectCard image="/payeasy.png" title="PayEasy 💸" description="Fully functional peer-to-peer money transfer system with user authentication" gitLink="https://github.com/parasss19/Payment-App" liveLink="https://payeasy.site"/>
       </div>
       
     </div>
