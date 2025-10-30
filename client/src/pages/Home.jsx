@@ -71,6 +71,7 @@ const Home = () => {
 
             <div className="flex gap-3 justify-center sm:justify-start">
               <a 
+                href="https://drive.google.com/uc?export=view&id=1alcljKv5fSQrdF_Eymou65qsLNDC2qFB"
                 onClick={() => {
                   confettiHandler();
                   sendEvent({
@@ -80,7 +81,6 @@ const Home = () => {
                     value: 1,
                   });
                 }}
-                href="/resume.pdf"
                 download = "resume.pdf"
                 className="px-2 py-1 rounded-lg flex items-center gap-2 cursor-pointer bg-red-600 active:scale-95 transition-transform duration-150"
               >
