@@ -1,5 +1,16 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/((?!resume\\.pdf).*)",
+      "destination": "/"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/resume.pdf",
+      "headers": [
+        { "key": "Content-Type", "value": "application/pdf" }
+      ]
+    }
   ]
 }

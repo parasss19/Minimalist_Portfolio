@@ -81,7 +81,7 @@ const Home = () => {
                   });
                 }}
                 href="/resume.pdf"
-                download = "Paras_Mehta_Resume.pdf"
+                download = "resume.pdf"
                 className="px-2 py-1 rounded-lg flex items-center gap-2 cursor-pointer bg-red-600 active:scale-95 transition-transform duration-150"
               >
                 Resume<IoDownloadOutline />
